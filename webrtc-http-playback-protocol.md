@@ -68,7 +68,7 @@ Response
 
 Status: 201
 Location: Resource URL
-Content-type: application/json
+Content-type: application/whpp+json
 Body:
 {
    "offer": "...",
@@ -84,7 +84,7 @@ To complete the connection, the playback client SHALL send an SDP answer as an H
 Request
 
 PUT /channel/<channelId>/<viewerId>
-Content-type: application/json
+Content-type: application/whpp+json
 Body:
 {
    "answer": "..."
@@ -101,7 +101,7 @@ Additionally, the playback client MAY use trickle-ICE. If it is to be used, the 
 Request
 
 PATCH /channel/<channelId>/<viewerId>
-Content-type: application/json
+Content-type: application/whpp+json
 Body:
 {
    "candidate": "..."
