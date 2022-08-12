@@ -5,3 +5,12 @@ As interest in WebRTC based media streaming for non-conferencing scenarios such 
 On the stream ingestion side, there is ongoing work in defining a standard in {{!draft-ietf-wish-whip-02}}. This document focuses on the playback side, and proposes an HTTP based protocol for negotiating a playback client viewer session for consuming WebRTC based broadcast streams. This document also adds some constraints to how WebRTC is to be used in order to simplify operation.
 
 [webrtc-http-playback-protocol.md](https://github.com/Eyevinn/webrtc-http-playback-protocol/blob/master/webrtc-http-playback-protocol.md)
+
+## WHPP Reference Streams
+
+- Sunny Stockholm: https://broadcaster.lab.sto.eyevinn.technology:8443/broadcaster/channel/sthlm
+
+## WHPP Tools and Libraries
+
+- [@eyevinn/whpp-client](https://www.npmjs.com/package/@eyevinn/whpp-client): A Node / JS Library for WHPP.
+- [@eyevinn/webrtc-player](https://www.npmjs.com/package/@eyevinn/webrtc-player): Media Server Independent WebRTC Player with WHPP support included. Demo available [here](https://webrtc.player.eyevinn.technology).
