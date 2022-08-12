@@ -14,3 +14,4 @@ On the stream ingestion side, there is ongoing work in defining a standard in {{
 
 - [@eyevinn/whpp-client](https://www.npmjs.com/package/@eyevinn/whpp-client): A Node / JS Library for WHPP.
 - [@eyevinn/webrtc-player](https://www.npmjs.com/package/@eyevinn/webrtc-player): Media Server Independent WebRTC Player with WHPP support included. Demo available [here](https://webrtc.player.eyevinn.technology).
+- [Eyevinn Web Player](https://web.player.eyevinn.technology): Open source HTML video player with support for HLS, MPEG-DASH and WHPP.
