@@ -112,6 +112,8 @@ Response
 Status: 204
 ~~~
 
+For a WHPP client to determine whether the endpoint supports trickle-ice it can issue an HTTP OPTIONS request on the viewer resource and be able to determine from the HTTP header `Allow` whether the HTTP method `PATCH` is allowed and supported. A response without the `PATCH` method in this header included means that the server does not support trickle-ice.
+
 # Security Considerations
 
 # IANA Considerations
